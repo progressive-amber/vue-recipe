@@ -1,0 +1,12 @@
+name: amber-vue
+version: 0.1.0
+
+authors:
+   - Sean Watters <sean@watters.io>
+
+description: |
+   A Vue.js recipe for the Amber framework.
+
+license: MIT
+
+generator_version: 1
