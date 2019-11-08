@@ -16,8 +16,6 @@
 
 # Amber with Vue.js
 
-The goal of the Amber with Vue.js recipe is to quickly provide a full stack solution that takes full advantages of the best parts of development using a frontend framework (in the way it was designed to be used), with a powerful backend API.
-
 The goal of the **Amber with Vue.js** recipe is to quickly provide a full stack solution that takes full advantages of the best parts of development using a frontend framework (in the way it was designed to be used), with a powerful backend API.
 
 The intention is to break away from the traditional Rails-y MVC model, without requiring developers to write completely separate frontend/backend codebases.
