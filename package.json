@@ -1,23 +1,23 @@
 {
-  "name": "amber-vue",
+  "name": "vue-recipe",
   "version": "0.1.0",
   "description": "A Vue.js recipe for the Amber framework",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/seanwatters/amber-vue.git"
+    "url": "git+https://github.com/progressive-amber/vue-recipe.git"
   },
   "keywords": [
     "vue",
     "vuejs",
     "amber",
-    "amberframework"
+    "amber-framework"
   ],
   "author": "Sean Watters",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/seanwatters/reactive-amber/issues"
+    "url": "https://github.com/progressive-amber/vue-recipe/issues"
   },
-  "homepage": "https://github.com/seanwatters/reactive-amber#readme",
+  "homepage": "https://github.com/progressive-amber/vue-recipe#readme",
   "devDependencies": {
     "@babel/core": "^7.2.2",
     "@babel/preset-env": "^7.2.3",
