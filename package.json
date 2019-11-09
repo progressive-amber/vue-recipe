@@ -19,9 +19,10 @@
   },
   "homepage": "https://github.com/seanwatters/reactive-amber#readme",
   "devDependencies": {
-    "amber-vue-cli": "^0.2.2",
     "@babel/core": "^7.2.2",
     "@babel/preset-env": "^7.2.3",
+    "@progressive-amber/amber-vue-cli": "^0.1.0",
+    "amber-vue-cli": "^0.2.2",
     "babel-loader": "^8.0.5",
     "css-loader": "^0.28.11",
     "file-loader": "^1.1.11",
@@ -32,8 +33,8 @@
     "webpack-merge": "^4.1.2"
   },
   "dependencies": {
-    "vue-router": "^3.1.3",
-    "vuex": "^3.1.1",
     "vue": "2.6.10",
+    "vue-router": "^3.1.3",
+    "vuex": "^3.1.1"
   }
 }
