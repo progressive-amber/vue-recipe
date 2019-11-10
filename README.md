@@ -24,16 +24,16 @@ The intention is to break away from the traditional Rails-y MVC model, without r
 
 ## Creating a Project
 
-To create your project with the **amber-vue** recipe, you will need to run the following command:
+To create your project with the **Amber with Vue.js** recipe, you will need to run the following command:
 
 ```
-amber new <your app name> -r progressive-amber/amber-vue
+amber new <your app name> -r progressive-amber/vue-recipe
 ```
 
 You may also want to specify your database (default is Postgres) by adding the `-d` tag:
 
 ```
-amber new <your app name> -r progressive-amber/amber-vue -d <pg | mysql | sqlite>
+amber new <your app name> -r progressive-amber/vue-recipe -d <pg | mysql | sqlite>
 ```
 
 Once your app has been created, you will want to run
