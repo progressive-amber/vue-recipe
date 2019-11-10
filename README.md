@@ -68,15 +68,14 @@ With this recipe, we have modularized the file structure to isolate your fronten
 |- spec
 |- src
     |- controllers
-        |- application_controller.cr
-        |- roots_controller.cr    // Controller for the primary route.
+        |- application_controller.cr    // Render method for root is in application_controller.cr
 
     |- locales
     |- models
     |- views
         |- layouts
-        |- roots
-            |- root.slang   // Location of the root #app <div> Vue will render to.
+        |- application
+            |- application.slang   // Location of the root #app <div> Vue will render to.
 
 ```
 
@@ -99,7 +98,7 @@ When you run the CLI, you should see the following:
 > api  // will generate a full CRUD API in amber
 ```
 
-Please feel free to also reference the **amber-vue-cli** [docs](https://github.com/seanwatters/amber-vue-cli)!
+Please feel free to also reference the **amber-vue-cli** [docs](https://www.npmjs.com/package/@progressive-amber/amber-vue-cli)!
 
 <br>
 
@@ -109,6 +108,9 @@ For any questions specific to the [Vue.js](https://vuejs.org/) or [Amber](https:
 
 * [Vue.js](https://vuejs.org/v2/guide/)
 * [Amber](https://docs.amberframework.org/amber/)
+
+<br>
+<br>
 
 ## DevTools
 
@@ -120,6 +122,8 @@ When developing Vue.js applications, it is highly recommended to use the [Vue.js
 You can also use the standalone Electron app **vue-remote-devtools** for any enviornment:
 
 * Remote: [devtools](https://github.com/vuejs/vue-devtools/blob/master/shells/electron/README.md)
+
+<br>
 
 ## License
 
